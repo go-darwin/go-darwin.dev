@@ -1,0 +1,4 @@
+# go-darwin project gitattributes file
+# https://github.com/github/linguist#using-gitattributes
+
+docs linguist-documentation
