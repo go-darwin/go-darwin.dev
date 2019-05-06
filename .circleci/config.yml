@@ -1,0 +1,34 @@
+version: 2.1
+jobs:
+  build:
+    docker:
+      - image: circleci/node:8
+    working_directory: ~/src
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+          - yarn-cache-{{ checksum "yarn.lock" }}
+      - run:
+          name: Install packaeg
+          command: |
+            yarn install
+      - save_cache:
+          paths:
+            - node_modules
+            - ~/.cache/yarn/
+          key: yarn-cache-{{ checksum "yarn.lock" }}
+      - run:
+          name: deploy
+          command: |
+            $(yarn bin)/firebase deploy --token "$FIREBASE_TOKEN"
+
+workflows:
+  version: 2
+  deploy-to-firebase:
+    jobs:
+      - build:
+          context: org-global
+          filters:
+            branches:
+              only: master
