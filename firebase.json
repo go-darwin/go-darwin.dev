@@ -1,6 +1,7 @@
 {
   "hosting": {
     "public": "public",
+    "site": "go-darwin-dev",
     "ignore": [
       "firebase.json",
       "**/.*",
