@@ -21,7 +21,7 @@ jobs:
       - run:
           name: deploy
           command: |
-            $(yarn bin)/firebase deploy --token "$FIREBASE_TOKEN"
+            $(yarn bin)/firebase deploy --project "$FIREBASE_PROJECT" --token "$FIREBASE_TOKEN"
 
 workflows:
   version: 2
