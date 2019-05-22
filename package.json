@@ -1,0 +1,8 @@
+{
+  "name": "go-darwin.dev",
+  "private": true,
+  "repository": "https://github.com/zchee/go-darwin.dev.git",
+  "dependencies": {
+    "firebase-tools": "^6.10.0"
+  }
+}
