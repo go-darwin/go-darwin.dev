@@ -13,6 +13,10 @@
         "destination": "/apfs/index.html"
       },
       {
+        "source": "/exp/**",
+        "destination": "/exp/index.html"
+      },
+      {
         "source": "/hdiutil/**",
         "destination": "/hdiutil/index.html"
       },
