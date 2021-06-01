@@ -1,37 +1,36 @@
 {
-  "hosting": {
-    "public": "public",
-    "site": "go-darwin-dev",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ],
-    "rewrites": [
-      {
-        "source": "/apfs/**",
-        "destination": "/apfs/index.html"
-      },
-      {
-        "source": "/exp/**",
-        "destination": "/exp/index.html"
-      },
-      {
-        "source": "/hdiutil/**",
-        "destination": "/hdiutil/index.html"
-      },
-      {
-        "source": "/keychain/**",
-        "destination": "/keychain/index.html"
-      },
-      {
-        "source": "/mach/**",
-        "destination": "/mach/index.html"
-      },
-      {
-        "source": "/plist/**",
-        "destination": "/plist/index.html"
-      }
-    ]
-  }
+    "hosting": {
+        "public": "public",
+        "ignore": [
+            "firebase.json",
+            "**/.*",
+            "**/node_modules/**"
+        ],
+        "rewrites": [
+            {
+                "source": "/apfs/**",
+                "destination": "/apfs/index.html"
+            },
+            {
+                "source": "/exp/**",
+                "destination": "/exp/index.html"
+            },
+            {
+                "source": "/hdiutil/**",
+                "destination": "/hdiutil/index.html"
+            },
+            {
+                "source": "/keychain/**",
+                "destination": "/keychain/index.html"
+            },
+            {
+                "source": "/mach/**",
+                "destination": "/mach/index.html"
+            },
+            {
+                "source": "/plist/**",
+                "destination": "/plist/index.html"
+            }
+        ]
+    }
 }
