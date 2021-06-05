@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta name="go-import" content="go-darwin.dev/PKG git https://github.com/go-darwin/PKG">
-    <meta name="go-source" content="go-darwin.dev/PKG github.com/go-darwin/PKG/ https://github.com/go-darwin/PKG/tree/main{/dir} https://github.com/go-darwin/PKG/blob/main{/dir}/{file}#L{line}">
-    <meta http-equiv="refresh" content="0; url=https://pkg.go.dev/go-darwin.dev/PKG">
+    <meta name="go-import" content="go-darwin.dev/PKG git https://github.com/go-darwin/PKG"/>
+    <meta name="go-source" content="go-darwin.dev/PKG github.com/go-darwin/PKG/ https://github.com/go-darwin/PKG/tree/main{/dir} https://github.com/go-darwin/PKG/blob/main{/dir}/{file}#L{line}"/>
+    <meta http-equiv="refresh" content="0; url=https://pkg.go.dev/go-darwin.dev/PKG"/>
   </head>
   <body>
     Nothing to see here; <a href="https://pkg.go.dev/go-darwin.dev/PKG">move along</a>.
