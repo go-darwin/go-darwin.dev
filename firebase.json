@@ -24,12 +24,20 @@
                 "destination": "/keychain/index.html"
             },
             {
+                "source": "/libproc/**",
+                "destination": "/libproc/index.html"
+            },
+            {
                 "source": "/mach/**",
                 "destination": "/mach/index.html"
             },
             {
                 "source": "/plist/**",
                 "destination": "/plist/index.html"
+            },
+            {
+                "source": "/sys/**",
+                "destination": "/sys/index.html"
             }
         ]
     }
